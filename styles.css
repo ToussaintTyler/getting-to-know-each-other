@@ -35,7 +35,7 @@ tr:hover {
   transition: 0.3s;
 }
 #greeting {
-  background: #34495e;
+  background: gold;
   color: crimson;
   padding: 20px;
   margin: 0;
@@ -89,7 +89,7 @@ a:hover {
 }
 
 button {
-  background: #27ae60;
+  background: black;
   color: green;
   padding: 10px 15px;
   border: none;
