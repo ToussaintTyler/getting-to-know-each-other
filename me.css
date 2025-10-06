@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 40px;
+  text-align: center;
+}
+
+img {
+  border-radius: 12px;
+}
+
+.thumbnail {
+  margin-top: 20px;
+}
+
+h2 {
+  margin-top: 40px;
+  color: #2c3e50;
+}
+
+p, ul {
+  text-align: left;
+  max-width: 600px;
+  margin: auto;
+}
