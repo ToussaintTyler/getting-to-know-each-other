@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <h2 id="greeting"></h2>
   <img src="me-800-by-800.JPG" alt="Head and shoulders photo of me" width="800" height="800">
   <h1>Tyler A.H. Toussaint</h1>
   <h1>Email me at: <a href="mailto:tyleratoussaint@lewisu.edu">tyleratoussaint@lewisu.edu</a>
@@ -49,6 +50,17 @@
     I am member of the Lewis University Track & Field Team.
     I have a total of 3 individual school event records.
   </p>
+    <script>
+  const greeting = document.getElementById("greeting");
+  const hour = new Date().getHours();
+  if (hour < 12) {
+    greeting.textContent = "Good Morning!";
+  } else if (hour < 18) {
+    greeting.textContent = "Good Afternoon!";
+  } else {
+    greeting.textContent = "Good Evening!";
+  }
+</script>
     <h2>My Weekly Schedule</h2>
 <table border="1" cellpadding="10" style="margin:auto; text-align:center;">
   <tr>
