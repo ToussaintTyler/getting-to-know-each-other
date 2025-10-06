@@ -90,5 +90,26 @@
     <td>Track Practice</td>
     <td>Free</td>
   </tr>
+      <script>
+  const greeting = document.getElementById("greeting");
+  const hour = new Date().getHours();
+  if (hour < 12) {
+    greeting.textContent = "Good Morning!";
+  } else if (hour < 18) {
+    greeting.textContent = "Good Afternoon!";
+  } else {
+    greeting.textContent = "Good Evening!";
+  }
+</script>
+    <script>
+  function showFunFact() {
+    document.getElementById("funfact").style.display = "block";
+  }
+</script>
+    <script>
+  document.getElementById("myName").addEventListener("click", function() {
+    this.style.color = "darkviolet"; 
+  });
+</script>
 </body>
 </html>
