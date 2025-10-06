@@ -9,7 +9,7 @@
 <body>
   <h2 id="greeting"></h2>
   <img src="me-800-by-800.JPG" alt="Head and shoulders photo of me" width="800" height="800">
-  <h1>Tyler A.H. Toussaint</h1>
+  <h1><span id="myName">Tyler A.H. Toussaint</span></h1>
   <h1>Email me at: <a href="mailto:tyleratoussaint@lewisu.edu">tyleratoussaint@lewisu.edu</a>
   </p>
   <h1>Discord: ElPadrino758</p>
@@ -19,7 +19,7 @@
   </div>
     <h2>Introduction</h2>
   <p>
-    My name is Tyler Toussaint. I am a student at Lewis University, majoring in Aviation Administration
+    My name is <span id="myName">Tyler Toussaint</span>. I am a student at Lewis University, majoring in Aviation Administration
     with a minor in Enviromental Science. I am the eldest of four. My family is very supportive of my academic and athletic 
     journey, and they inspire me to keep striving for excellence both in school and in life.
   </p>
@@ -66,6 +66,11 @@
   function showFunFact() {
     document.getElementById("funfact").style.display = "block";
   }
+</script>
+    <script>
+  document.getElementById("myName").addEventListener("click", function() {
+    this.style.color = "purple"; // change "purple" to your favorite color
+  });
 </script>
     <h2>My Weekly Schedule</h2>
 <table border="1" cellpadding="10" style="margin:auto; text-align:center;">
