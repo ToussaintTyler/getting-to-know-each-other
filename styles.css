@@ -8,6 +8,32 @@ body {
   text-align: center;
 }
 
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 20px auto;
+  background: #f9f9f9;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+}
+
+th {
+  background: #2c3e50;
+  color: red;
+  padding: 12px;
+}
+
+td {
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background: #ecf0f1;
+}
+
+tr:hover {
+  background: #dfe6e9;
+  transition: 0.3s;
+}
 #greeting {
   background: #34495e;
   color: crimson;
@@ -75,25 +101,3 @@ button {
 
 button:hover {
   background: #219150;
-table {
-  border-collapse: collapse;
-  width: 80%;
-  margin: 20px auto;
-  background: #f9f9f9;
-  box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
-}
-th {
-  background: #2c3e50;
-  color: red;
-  padding: 12px;
-}
-td {
-  padding: 10px;
-}
-tr:nth-child(even) {
-  background: #ecf0f1;
-}
-tr:hover {
-  background: #dfe6e9;
-  transition: 0.3s;
-}
