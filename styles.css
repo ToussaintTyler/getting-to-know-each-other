@@ -78,21 +78,20 @@ button:hover {
 
 table {
   border-collapse: collapse;
-  width: 90%;
-  margin: 30px auto;
-  background: white;
-  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
-}
-
-th, td {
-  padding: 12px;
-  text-align: center;
+  width: 80%;
+  margin: 20px auto;
+  background: #f9f9f9;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
 }
 
 th {
   background: #2c3e50;
   color: white;
-  text-transform: uppercase;
+  padding: 12px;
+}
+
+td {
+  padding: 10px;
 }
 
 tr:nth-child(even) {
@@ -101,5 +100,5 @@ tr:nth-child(even) {
 
 tr:hover {
   background: #dfe6e9;
-  transition: background 0.3s ease;
+  transition: 0.3s;
 }
